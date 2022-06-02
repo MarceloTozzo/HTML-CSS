@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(156, 196, 156);
+        }
+
+        header{
+            background-color: rgb(20, 201, 20);
+            color: whitesmoke;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        nav{
+            background-color: rgb(23, 58, 23);
+            padding: 1px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.486);
+            border-radius: 10px;
+            
+        }
+
+        nav > ul> li> a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        nav > ul> li> a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: rgb(20, 201, 20);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+       article > h2{
+            background-color: rgba(245, 245, 245, 0.74);
+            color: rgb(22, 206, 22);
+            font-size: 35px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.486);
+        }
+
+       article > p{
+            text-align: justify;
+        }
+
+        aside > p{
+            background-color: rgb(23, 58, 23);
+            font-weight: bold;
+            text-align: center;
+            margin: 0px -9px;
+        }
+
+        section > p{
+            font-weight: bold;
+            text-decoration: underline;
+        }
+            
+
+        footer{
+            background-color: black;
+            color: whitesmoke;
+            text-align: center;
+            padding: 4px;
+            margin: 0px -9px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Esportes</h1>
+        <nav>
+            <ul type="square">
+                <li><a href="#">Futebol</a></li>
+                <li><a href="#">Basquete</a></li>
+                <li><a href="#">Volei</a></li>
+                <li><a href="#">Rugby</a></li>
+            </ul>
+            
+        </nav>
+               
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Futebol</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Palmeiras</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio esse amet neque alias blanditiis consequuntur quos nesciunt temporibus aut! Mollitia similique sed tenetur eius soluta. Eligendi nam incidunt error laboriosam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt id quibusdam molestiae rem hic deserunt cupiditate omnis consequuntur, doloremque, vero animi perferendis facilis? Sit saepe deserunt, ea cupiditate tempora sint? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus reiciendis tempore sed voluptatem delectus reprehenderit laborum nihil placeat fuga dicta vero, quas veniam odio obcaecati aut similique molestias ea. Ex!</p>
+                <aside>
+                    <p>Artigo escrito por Marcelo Tozzo</p>
+                </aside>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido pela Fifa</p>
+    
+
+
+    </footer>
+    
+</body>
+</html>
+
+
+
+
+
+            
